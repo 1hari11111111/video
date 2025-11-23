@@ -1,0 +1,4 @@
+# Placeholder config
+BOT_A_TOKEN = "REPLACE_WITH_YOUR_MAIN_BOT_TOKEN"
+BOT_B_TOKEN = "REPLACE_WITH_YOUR_VIDEO_BOT_TOKEN"
+API_URL = "https://yourserver.com/api"
