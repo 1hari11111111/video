@@ -1,0 +1,9 @@
+[Unit]
+Description=Bot B Service
+After=network.target
+[Service]
+WorkingDirectory=/path/to/bots
+ExecStart=/usr/bin/python3 video_bot.py
+Restart=always
+[Install]
+WantedBy=multi-user.target

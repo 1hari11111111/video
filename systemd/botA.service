@@ -1,0 +1,9 @@
+[Unit]
+Description=Bot A Service
+After=network.target
+[Service]
+WorkingDirectory=/path/to/bots
+ExecStart=/usr/bin/python3 main_bot.py
+Restart=always
+[Install]
+WantedBy=multi-user.target
